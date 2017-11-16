@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import SearchBar from '../containers/search_city';
 
-export default class App extends Component {
+export default class SearchView extends Component {
 
   render() {
     return (

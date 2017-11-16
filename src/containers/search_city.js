@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Router, Route, history, withRouter} from 'react-router-dom';
+import { Router, Route, withRouter} from 'react-router-dom';
 
-class SearchBar extends Component {
+export default class SearchBar extends Component {
 
   constructor (props) {
     super(props);
@@ -17,12 +17,11 @@ class SearchBar extends Component {
   }
 
   onFormSubmit(event) {
-    this.props.push(`overview?city=${this.state.term}`)
   }
 
   render(){
     return(
-      <form onSubmit={this.onFormSubmit} className="input-group">
+      <form className="input-group">
         <input
           placeholder="Zoek voor gemeentes..."
           className="form-control"
@@ -36,5 +35,3 @@ class SearchBar extends Component {
     );
   }
 }
-
-export default withRouter(SearchBar)
