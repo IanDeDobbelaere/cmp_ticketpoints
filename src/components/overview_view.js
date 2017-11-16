@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchPosts } from '../actions';
+import { fetchSalePoints } from '../actions';
 import axios from 'axios';
 
 
@@ -20,7 +20,7 @@ class OverviewView extends Component {
 }
 
 function mapStateToProps(state){
-  return { posts: state.Salepoints };
+  return { Salepoints: state.Salepoints };
 }
 
 export default connect(null, { fetchSalePoints })(OverviewView);
