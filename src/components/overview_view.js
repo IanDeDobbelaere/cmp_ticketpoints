@@ -1,9 +1,16 @@
 import React, { Component } from 'react';
-import { Router, Route, withRouter} from 'react-router-dom';
+import { connect } from 'react-redux';
+import { fetchPosts } from '../actions';
+import axios from 'axios';
 
-export default class OverviewView extends Component {
+
+class OverviewView extends Component {
+  componentDiDMount() {
+    this.props.fetchSalePoints();
+  }
 
   render(){
+    console.log(this.props.Salepoints)
     return(
       <div>
       Overview View
@@ -11,3 +18,9 @@ export default class OverviewView extends Component {
     );
   }
 }
+
+function mapStateToProps(state){
+  return { posts: state.Salepoints };
+}
+
+export default connect(null, { fetchSalePoints })(OverviewView);
