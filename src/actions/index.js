@@ -1,16 +1,16 @@
 import axios from 'axios';
 
 
-export const FETCH_SALE_POINTS = 'fetch_sale_points';
+export const FETCH_SELL_POINTS = 'fetch_SELL_points';
 
-const ROOT_URL = 'https://www.delijn.be/rise-api-core/locations/verkooppunten/'
+const ROOT_URL = 'https://www.delijn.be/rise-api-core/locations/verkooppunten'
 
 
-export function fetchSalePoints() {
-  const request = axios.get(`${ROOT_URL}Schoten`);
+export function fetchSellPoints() {
+  const request = axios.get(`${ROOT_URL}/Schoten`);
 
   return {
-    type: FETCH_SALE_POINTS,
+    type: FETCH_SELL_POINTS,
     payload: request
   };
 }

@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import SalePointsReducer from './reducer_salepoints';
+import SellPointsReducer from './reducer_sellpoints';
 
 const rootReducer = combineReducers({
-  Salepoints: SalePointsReducer
+  Sellpoints: SellPointsReducer
 
 });
 

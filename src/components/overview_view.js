@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { fetchSalePoints } from '../actions';
+import { fetchSellPoints } from '../actions';
 import axios from 'axios';
 
 
 class OverviewView extends Component {
   componentDiDMount() {
-    this.props.fetchSalePoints();
+    this.props.fetchSellPoints();
   }
 
   render(){
-    console.log(this.props.Salepoints)
+    console.log(this.props.Sellpoints)
     return(
       <div>
       Overview View
@@ -20,7 +20,7 @@ class OverviewView extends Component {
 }
 
 function mapStateToProps(state){
-  return { Salepoints: state.Salepoints };
+  return { Sellpoints: state.Sellpoints };
 }
 
-export default connect(null, { fetchSalePoints })(OverviewView);
+export default connect(mapStateToProps, { fetchSellPoints })(OverviewView);

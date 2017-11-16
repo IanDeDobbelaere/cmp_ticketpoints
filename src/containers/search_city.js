@@ -17,11 +17,13 @@ export default class SearchBar extends Component {
   }
 
   onFormSubmit(event) {
+    event.prefentDefault();
+
   }
 
   render(){
     return(
-      <form className="input-group">
+      <form onSubmit={onFormSubmit} className="input-group">
         <input
           placeholder="Zoek voor gemeentes..."
           className="form-control"
