@@ -5,7 +5,7 @@ import axios from 'axios';
 
 
 class OverviewView extends Component {
-  componentDiDMount() {
+  componentDidMount() {
     this.props.fetchSellPoints();
   }
 
