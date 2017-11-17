@@ -28,6 +28,7 @@ class OverviewView extends Component {
     console.log(this.props.Sellpoints)
     return(
       <div>
+        <Link to="/">Back to index</Link>
         <ul className="list-group">
           {this.renderSellPoints()}
         </ul>
