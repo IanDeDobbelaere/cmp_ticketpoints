@@ -1,0 +1,295 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.container {
+  width: 100%;
+}
+
+.startwrap {
+  width: 100%;
+  height: 100vh;
+}
+
+.startpaginaimg {
+
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+.delijnback {
+  position:absolute;
+  bottom: 0;
+  z-index: -10;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.delijnfront {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  z-index: 100;
+  width: 100px;
+  height: auto;
+}
+
+
+.introtitle{
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+width: 40%;
+padding-top: 20vh;
+color: white;
+}
+
+.introtitle h1{
+
+padding-bottom: 20px;
+font-size: 2em;
+font-family: 'Roboto', sans-serif;
+text-shadow: 0px 3px 8px black;
+
+}
+
+.introtitle p {
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+text-shadow: 0px 3px 8px black;
+
+}
+
+.input-group {
+  margin: 0 auto;
+  width: 40%;
+padding-top: 10vh;
+}
+
+.form-control {
+  width: 100%;
+  height: 45px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
+padding-left: 20px;
+}
+.input-group-btn {
+    display: inline-block;
+    width: 100%;
+
+
+
+  }
+
+  .input-group-btn button {
+    width: 100%;
+      height: 45px;
+      font-family: 'Roboto', sans-serif;
+font-size: 1em;
+      border-radius: 3px;
+      background-color: rgb(254, 205, 49);
+      color: white;
+      border: 0px;
+      -webkit-box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
+
+  }
+
+input .form-control {
+
+}
+
+@media screen and (max-width: 900px) {
+    .delijnfront {
+      width: 50px;
+    }
+
+    .input-group {
+      width: 60%;
+    }
+    .introtitle{
+      width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .input-group {
+      width: 70%;
+    }
+    .introtitle{
+      width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .input-group {
+      width: 80%;
+      padding-top: 5vh;
+    }
+    .introtitle {
+      padding-top: 10vh;
+      width: 80%;
+    }
+    .delijnfront {
+    display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+
+  .introtitle {
+    padding-top: 5vh;
+  }
+    .introtitle h1 {
+      font-size: 1.5em;
+    }
+}
+
+/* Background-image */
+.bg-img{
+  width: 70%;
+  height: auto;
+  opacity: 0.2;
+  position: absolute;
+  top: 20%;
+  z-index: -200;
+}
+
+/* Back Button + Text */
+.back-btn{
+  width: 20%
+  height: auto;
+  padding: 1em;
+  margin: 2em auto 3em auto;
+  display: table;
+  vertical-align: middle;
+  background-color: white;
+  box-shadow: 0px 10px 5px #2222;
+}
+
+.my-text{
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-size:150%;
+  color:black;
+  padding: .5em .8em;
+}
+
+.arrow{
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5em .8em;
+}
+/* links without underlines */
+div a{
+  text-decoration:none;
+}
+
+
+/* Group of Ticketpoints */
+.list-group{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.list-group-item{
+
+  vertical-align: middle;
+  background-color:white;
+  box-shadow: 0px 10px 5px #2222;
+  padding: 2.5%;
+  margin: 2.5%;
+  width: 200px;
+  height: auto;
+  z-index: 100;
+}
+
+li {
+  text-decoration: none;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/*Text css*/
+li span{
+  color: black;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+li h6 span{
+  font-weight: 100;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Arial', sans-serif;
+  font-size: 80%;
+  margin-top: 2em;
+}
+
+/* fontawesome */
+i{
+  width: 100%;
+  height: auto;
+}
+
+li i{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* color of tickets */
+.ticket{
+  color:rgba(254, 205, 49, 1);
+}
+
+
+
+/*    * * * * * * * * * * * * * * * * * * * *
+
+MEDIA QUERIES
+
+* * * * * * * * * * * * * * * * * * * *   */
+
+@media screen and (max-width: 450px){
+  .list-group-item{
+    display: table;
+    vertical-align: middle;
+    background-color:white;
+    box-shadow: 0px 10px 5px #2222;
+    padding: 2.5%;
+    margin: 2.5%;
+    width: 300px;
+    height: auto;
+  }
+}

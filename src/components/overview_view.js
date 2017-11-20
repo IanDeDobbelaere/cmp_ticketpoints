@@ -16,7 +16,8 @@ class OverviewView extends Component {
     return _.map(this.props.Sellpoints, Sellpoint => {
       return (
         <li className="list-group-item" key={ Sellpoint.primaryKey }>
-            { Sellpoint.naamString }
+            <i className="fa fa-ticket fa-3x ticket" aria-hidden="true"></i>
+            <h6>{ Sellpoint.naamString }</h6>
             <br/>
             <h6> { Sellpoint.adres } </h6>
         </li>
@@ -27,7 +28,12 @@ class OverviewView extends Component {
   render(){
     return(
       <div>
-        <Link to="/">Back to index</Link>
+        <img className='delijnfront' src='/assets/img/delijn_logo_color.png'/>
+        <img className='bg-img' src='/assets/img/delijn_logo_BW.png'/>
+        <Link to="/" className='back-btn'>
+          <i className="fa fa-arrow-left fa-2x arrow"></i>
+          <div className="my-text">Ga terug naar zoeken</div>
+        </Link>
         <ul className="list-group">
           {this.renderSellPoints()}
         </ul>
