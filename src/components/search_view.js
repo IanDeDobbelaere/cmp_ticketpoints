@@ -7,6 +7,7 @@ export default class SearchView extends Component {
   render() {
     return (
       <div>
+        hier u img tag
         <SearchBar />
       </div>
     );

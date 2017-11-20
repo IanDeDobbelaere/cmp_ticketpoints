@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, withRouter} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default class SearchBar extends Component {
 
@@ -17,22 +17,21 @@ export default class SearchBar extends Component {
   }
 
   onFormSubmit(event) {
-    event.prefentDefault();
-
+    event.preventDefault
   }
 
   render(){
     return(
-      <form onSubmit={onFormSubmit} className="input-group">
+      <form onSubmit={this.onFormSubmit} className="input-group">
         <input
           placeholder="Zoek voor gemeentes..."
           className="form-control"
           value={this.state.term}
           onChange={this.onInputChange}
         />
-        <span className="input-group-btn">
+        <Link to={`/overview/${this.state.term}`} className="input-group-btn">
           <button type="submit" className="btn btn-secondary">Zoeken</button>
-        </span>
+        </Link>
       </form>
     );
   }
