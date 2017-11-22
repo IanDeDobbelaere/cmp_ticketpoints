@@ -97,13 +97,9 @@ font-size: 1em;
 box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
   }
 
-<<<<<<< HEAD
-input .form-control {
-
-}
 
 /*Stied css*/
-=======
+
 @media screen and (max-width: 900px) {
     .delijnfront {
       width: 50px;
@@ -150,7 +146,7 @@ input .form-control {
       font-size: 1.5em;
     }
 }
->>>>>>> 974fa813356e3e3d23c06d4e03e76dd29708b66a
+
 
 /* Background-image */
 .bg-img{
