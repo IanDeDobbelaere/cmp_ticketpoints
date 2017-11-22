@@ -112,52 +112,7 @@ input .form-control {
 
 }
 
-@media screen and (max-width: 900px) {
-    .delijnfront {
-      width: 50px;
-    }
-
-    .input-group {
-      width: 60%;
-    }
-    .introtitle{
-      width: 60%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-
-    .input-group {
-      width: 70%;
-    }
-    .introtitle{
-      width: 70%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-
-    .input-group {
-      width: 80%;
-      padding-top: 5vh;
-    }
-    .introtitle {
-      padding-top: 10vh;
-      width: 80%;
-    }
-    .delijnfront {
-    display: none;
-    }
-}
-@media screen and (max-width: 500px) {
-
-  .introtitle {
-    padding-top: 5vh;
-  }
-    .introtitle h1 {
-      font-size: 1.5em;
-    }
-}
+/*Stied css*/
 
 /* Background-image */
 .bg-img{
@@ -280,6 +235,54 @@ li i{
 MEDIA QUERIES
 
 * * * * * * * * * * * * * * * * * * * *   */
+
+
+@media screen and (max-width: 900px) {
+    .delijnfront {
+      width: 50px;
+    }
+
+    .input-group {
+      width: 60%;
+    }
+    .introtitle{
+      width: 60%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .input-group {
+      width: 70%;
+    }
+    .introtitle{
+      width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .input-group {
+      width: 80%;
+      padding-top: 5vh;
+    }
+    .introtitle {
+      padding-top: 10vh;
+      width: 80%;
+    }
+    .delijnfront {
+    display: none;
+    }
+}
+@media screen and (max-width: 500px) {
+
+  .introtitle {
+    padding-top: 5vh;
+  }
+    .introtitle h1 {
+      font-size: 1.5em;
+    }
+}
 
 @media screen and (max-width: 450px){
   .list-group-item{
