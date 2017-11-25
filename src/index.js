@@ -7,6 +7,7 @@ import promise from 'redux-promise';
 
 import SearchView from './components/search_view';
 import OverviewView from './components/overview_view';
+import DetailView from './components/detail_view';
 
 import reducers from './reducers';
 
@@ -17,6 +18,7 @@ ReactDOM.render(
     <BrowserRouter>
     <div>
       <Switch>
+        <Route path="/detail" component={DetailView} />
         <Route path="/overview/:location" component={OverviewView} />
         <Route path="/" component={SearchView} />
       </Switch>

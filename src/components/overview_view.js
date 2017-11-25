@@ -5,22 +5,24 @@ import { fetchSellPoints } from '../actions';
 import axios from 'axios';
 
 
+
 class OverviewView extends Component {
   componentDidMount() {
     const gemeente  = this.props.match.params.location;
-    console.log(gemeente)
     this.props.fetchSellPoints(gemeente);
   }
 
   renderSellPoints(){
     return _.map(this.props.Sellpoints, Sellpoint => {
       return (
-        <li className="list-group-item" key={ Sellpoint.primaryKey }>
-            <i className="fa fa-ticket fa-3x ticket" aria-hidden="true"></i>
-            <h6>{ Sellpoint.naamString }</h6>
-            <br/>
-            <h6> { Sellpoint.adres } </h6>
-        </li>
+        <Link to={`/detail?adres=${Sellpoint.adres}&naam=${Sellpoint.naamString}`}>
+          <li className="list-group-item" key={ Sellpoint.primaryKey }>
+              <i className="fa fa-ticket fa-3x ticket" aria-hidden="true"></i>
+              <h6>{ Sellpoint.naamString }</h6>
+              <br/>
+              <h6> { Sellpoint.adres } </h6>
+          </li>
+        </Link>
       );
     });
   }
