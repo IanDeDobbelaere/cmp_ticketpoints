@@ -16,6 +16,7 @@ class DetailView extends Component {
     return(
       <div>
         <h4>Adres: { parsed.adres } </h4>
+        <h4>Adres: { parsed.minadres } </h4>
         <h4>Naam: { parsed.naam } </h4>
       </div>
     );

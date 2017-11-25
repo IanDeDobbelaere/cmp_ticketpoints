@@ -15,7 +15,7 @@ class OverviewView extends Component {
   renderSellPoints(){
     return _.map(this.props.Sellpoints, Sellpoint => {
       return (
-        <Link to={`/detail?adres=${Sellpoint.adres}&naam=${Sellpoint.naamString}`}>
+        <Link to={`/detail?adres=${Sellpoint.adresString}&minadres=${Sellpoint.adres}&naam=${Sellpoint.naamString}`}>
           <li className="list-group-item" key={ Sellpoint.primaryKey }>
               <i className="fa fa-ticket fa-3x ticket" aria-hidden="true"></i>
               <h6>{ Sellpoint.naamString }</h6>
