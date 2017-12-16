@@ -166,6 +166,7 @@ box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
   margin: 2em auto 3em auto;
   display: table;
   vertical-align: middle;
+  color:black;
   background-color: white;
   box-shadow: 0px 10px 5px #2222;
 }
@@ -208,12 +209,12 @@ div a{
 }
 
 .list-group-item{
-  display: table-cell;
+  display: table;
   vertical-align: middle;
   background-color:white;
   box-shadow: 0px 10px 5px #2222;
-  padding: 2.5%;
-  margin: 2.5%;
+  padding: 5%;
+  margin: .5em;
   width: 200px;
   height: auto;
   z-index: 100;
@@ -222,44 +223,66 @@ div a{
 li {
   text-decoration: none;
   position: relative;
-  display: table-cell;
+  display: table;
   vertical-align: middle;
 }
 
 /*Text css*/
-li span{
-  color: black;
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
+
+p{
+
   font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
-
-li h6 span{
-  font-weight: 100;
+.textTicketpoint{
+  color: rgb(80,80,80);
   position: relative;
   display: table-cell;
   vertical-align: middle;
+  width: 50%;
+  height: auto;
+  padding-top: 5%;
+  float:left;
+
+
+}
+
+h6{
   font-family: 'Roboto', sans-serif;
-  font-size: 80%;
-  margin-top: 2em;
+  font-weight: 600;
+  font-size:.8em;
+  vertical-align: middle;
+  position: relative;
+}
+
+.textTicketpoint p span {
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-size: 65%;
+  margin-top: 1em;
+  vertical-align: middle;
+  position: relative;
 }
 
 /* fontawesome */
 i{
-  width: 100%;
+  width: auto;
   height: auto;
+  float:left;
+  margin-right: 10%;
 }
 
 li i{
-  display: table-cell;
   vertical-align: middle;
 }
 
+
 /* color of tickets */
 .ticket{
-  color:rgba(254, 205, 49, 1);
+  background-color:rgba(254, 205, 49, 1);
+  color:white;
+  border-radius: 50%;
+  padding: 5%;
 }
 
 
@@ -328,5 +351,9 @@ MEDIA QUERIES
     margin: 2.5%;
     width: 300px;
     height: auto;
+  }
+
+  .textTicketpoint{
+    vertical-align: middle;
   }
 }
