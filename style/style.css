@@ -98,7 +98,6 @@ box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
   }
 
 
-/*Stied css*/
 
 @media screen and (max-width: 900px) {
     .delijnfront {
@@ -147,6 +146,7 @@ box-shadow: 0px 9px 26px -7px rgba(0,0,0,0.75);
     }
 }
 
+/*Stied css*/
 
 /* Background-image */
 .bg-img{
@@ -194,7 +194,7 @@ div a{
 
 /* Group of Ticketpoints */
 .list-group{
-  padding: 0;
+  padding: 2.5% 5%;
   margin: 0;
   list-style: none;
 
@@ -215,7 +215,7 @@ div a{
   box-shadow: 0px 10px 5px #2222;
   padding: 5%;
   margin: .5em;
-  width: 200px;
+  width: 300px;
   height: auto;
   z-index: 100;
 }
@@ -239,7 +239,7 @@ p{
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  width: 50%;
+  width: 60%;
   height: auto;
   padding-top: 5%;
   float:left;
