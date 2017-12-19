@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { fetchSellPoints } from '../actions';
 import axios from 'axios';
+import GoogleMaps from '../containers/google_maps';
+
 
 
 

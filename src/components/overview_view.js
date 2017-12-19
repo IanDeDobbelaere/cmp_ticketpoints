@@ -7,6 +7,13 @@ import axios from 'axios';
 
 
 class OverviewView extends Component {
+
+
+  locationItem() {
+    return (this.props.match.params.location);
+  }
+
+
   componentDidMount() {
     const gemeente  = this.props.match.params.location;
     this.props.fetchSellPoints(gemeente);
@@ -36,7 +43,7 @@ class OverviewView extends Component {
         <img className='bg-img' src='/assets/img/delijn_logo_BW.png'/>
         <Link to="/" className='back-btn'>
           <i className="fa fa-arrow-left fa-2x arrow"></i>
-          <div className="my-text">Ga terug naar zoeken</div>
+          <div className="my-text">{ this.locationItem()}</div>
         </Link>
         <ul className="list-group">
           {this.renderSellPoints()}
