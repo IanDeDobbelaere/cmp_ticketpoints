@@ -27,8 +27,7 @@ class OverviewView extends Component {
               <i className="fa fa-ticket fa-3x ticket" aria-hidden="true"></i>
               <div className="textTicketpoint">
                 <h6>{ Sellpoint.naamString }</h6>
-                <br/>
-                <p> { Sellpoint.adres } </p>
+                <h5>{ Sellpoint.adres }</h5>
               </div>
           </li>
         </Link>
@@ -39,10 +38,14 @@ class OverviewView extends Component {
   render(){
     return(
       <div>
+        <div className='statusbar'>
+          <img src='/assets/img/Status_Network.svg'/>
+          <img src='/assets/img/Status_Time.svg'/>
+          <img src='/assets/img/Status_Battery.svg'/>
+        </div>
         <img className='delijnfront' src='/assets/img/delijn_logo_color.png'/>
-        <img className='bg-img' src='/assets/img/delijn_logo_BW.png'/>
         <Link to="/" className='back-btn'>
-          <i className="fa fa-arrow-left fa-2x arrow"></i>
+          <i className="fa fa-arrow-left fa-1x arrow"></i>
           <div className="my-text">{ this.locationItem()}</div>
         </Link>
         <ul className="list-group">

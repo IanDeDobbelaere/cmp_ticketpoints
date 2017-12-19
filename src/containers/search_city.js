@@ -23,12 +23,15 @@ export default class SearchBar extends Component {
   render(){
     return(
       <form onSubmit={this.onFormSubmit} className="input-group">
+        <div className="search">
+        <i className="fa fa-search fa-3"></i>
         <input
           placeholder="Zoek voor gemeentes..."
           className="form-control"
           value={this.state.term}
           onChange={this.onInputChange}
         />
+        </div>
         <Link to={`/overview/${this.state.term}`} className="input-group-btn">
           <button type="submit" className="btn btn-secondary">Zoeken</button>
         </Link>

@@ -1,0 +1,96 @@
+<svg width="25" height="24" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>De Lijn Logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(135 253)">
+<g id="De Lijn Logo">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-125.586 -245.451)" fill="#68737A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-135 -245.451)" fill="#68737A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(-129.276 -247.191)" fill="#68737A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(-130.65 -247.191)" fill="#68737A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(-129.276 -245.451)" fill="#68737A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(-131.27 -245.451)" fill="#68737A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="translate(-127.35 -253)" fill="#FFCE07"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="translate(-130.479 -240.458)" fill="#FFCE07"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path8_fill" transform="translate(-117.183 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path9_fill" transform="translate(-119.297 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path10_fill" transform="translate(-122.502 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path11_fill" transform="translate(-111.109 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path12_fill" transform="translate(-111.674 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path13_fill" transform="translate(-112.24 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path14_fill" transform="translate(-112.819 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path15_fill" transform="translate(-113.385 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path16_fill" transform="translate(-114.529 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path17_fill" transform="translate(-113.964 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path18_fill" transform="translate(-115.109 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path19_fill" transform="translate(-115.97 -247.191)" fill="#4274B9"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path20_fill" transform="translate(-127.66 -247.191)" fill="#4274B9"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 5.25231 4.16285L 5.99302 0L 3.73049 0L 3.44767 1.63302L 3.00325 0L 0.740711 0L 2.05497e-07 4.16285L 2.24907 4.16285L 2.55882 2.52984L 3.00325 4.16285L 5.25231 4.16285Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 0.740711 0L 0 4.16285L 3.51501 4.16285L 3.70355 3.07864L 2.46455 3.07864L 3.00325 0L 0.740711 0Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 1.037 0.334635L 1.10433 0L 0.228947 0L 0 1.17791L 0.875385 1.17791L 0.942723 0.856665L 0.538699 0.856665L 0.552166 0.736196L 0.915788 0.736196L 0.969658 0.441718L 0.619503 0.441718L 0.632971 0.334635L 1.037 0.334635Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 0.700308 0L 0.21548 0L -1.02749e-07 1.17791L 0.592569 1.17791C 0.781113 1.17791 0.95619 1.12437 1.09087 1.01729C 1.22554 0.910206 1.30634 0.776352 1.33328 0.602342C 1.44102 0.214166 1.21207 0 0.700308 0ZM 0.632971 0.374791L 0.659906 0.374791C 0.834983 0.374791 0.915788 0.455103 0.888853 0.602342C 0.848451 0.749582 0.740711 0.816508 0.565634 0.816508L 0.538699 0.816508L 0.632971 0.374791Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 0.592569 3.07864L 0.202012 3.07864L 0 4.16285L 1.89891 4.16285C 2.20866 4.16285 2.47801 4.05577 2.7339 3.84161C 2.97631 3.62744 3.13792 3.37312 3.19179 3.07864L 3.74396 1.90218e-15L 1.49489 1.90218e-15L 0.996593 2.73062C 0.983125 2.8377 0.929255 2.91801 0.84845 2.97156C 0.781113 3.03848 0.700309 3.07864 0.592569 3.07864Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 1.02749e-07 2.90463L 2.26253 2.90463L 2.7743 0L 0.525231 0L 1.02749e-07 2.90463Z"/>
+<path id="path6_fill" fill-rule="evenodd" d="M 16.6189 5.23369L 17.3326 1.25823C 17.4538 0.602342 16.9421 1.99457e-10 16.2687 1.99457e-10L 1.83158 1.99457e-10C 1.30634 1.99457e-10 0.84845 0.374791 0.767646 0.896821L -1.02749e-07 5.24707L 16.6189 5.24707L 16.6189 5.23369Z"/>
+<path id="path7_fill" fill-rule="evenodd" d="M 18.4413 4.0849e-07L 1.83595 4.0849e-07L 0.0178451 10.1997C -0.103362 10.8555 0.408401 11.4579 1.08177 11.4579L 15.492 11.4579C 16.0172 11.4579 16.4616 11.0831 16.5559 10.5611L 18.4413 4.0849e-07Z"/>
+<path id="path8_fill" fill-rule="evenodd" d="M 4.10995e-07 1.17791L 1.06393 1.17791L 1.27941 0L 0.202012 0L 4.10995e-07 1.17791Z"/>
+<path id="path9_fill" fill-rule="evenodd" d="M -2.05497e-07 1.17791L 1.97972 1.17791L 2.1952 0L 0.215479 0L -2.05497e-07 1.17791Z"/>
+<path id="path10_fill" fill-rule="evenodd" d="M 3.07058 1.17791L 3.27259 0L 0.21548 0L 4.10995e-07 1.17791L 3.07058 1.17791Z"/>
+<path id="path11_fill" fill-rule="evenodd" d="M 0.215479 0L -8.21989e-07 1.17791L 0.0673365 1.17791L 0.282817 0L 0.215479 0Z"/>
+<path id="path12_fill" fill-rule="evenodd" d="M 0.32322 0L 0.202012 0L -4.10995e-07 1.17791L 0.10774 1.17791L 0.32322 0Z"/>
+<path id="path13_fill" fill-rule="evenodd" d="M 0 1.17791L 0.161609 1.17791L 0.37709 0L 0.202012 0L 0 1.17791Z"/>
+<path id="path14_fill" fill-rule="evenodd" d="M 0.430958 0L 0.202012 0L -4.10995e-07 1.17791L 0.21548 1.17791L 0.430958 0Z"/>
+<path id="path15_fill" fill-rule="evenodd" d="M 0.471361 0L 0.202012 0L 0 1.17791L 0.269349 1.17791L 0.471361 0Z"/>
+<path id="path16_fill" fill-rule="evenodd" d="M 0.579102 0L 0.202012 0L 0 1.17791L 0.37709 1.17791L 0.579102 0Z"/>
+<path id="path17_fill" fill-rule="evenodd" d="M -4.10995e-07 1.17791L 0.32322 1.17791L 0.538698 0L 0.21548 0L -4.10995e-07 1.17791Z"/>
+<path id="path18_fill" fill-rule="evenodd" d="M -4.10995e-07 1.17791L 0.430958 1.17791L 0.646439 0L 0.21548 0L -4.10995e-07 1.17791Z"/>
+<path id="path19_fill" fill-rule="evenodd" d="M 0.740711 1.17791L 0.956189 0L 0.188544 0L 4.10995e-07 1.17791L 0.740711 1.17791Z"/>
+<path id="path20_fill" fill-rule="evenodd" d="M 0.215479 0L 0 1.17791L 5.10417 1.17791L 5.30618 0L 0.215479 0Z"/>
+</defs>
+</svg>
